@@ -1,0 +1,31 @@
+#title: parete
+#domain: 3.0 6.0 0.01
+#dx_dy_dz: 0.01 0.01 0.01
+#time_window: 20e-9
+
+#material: 3 0 1 0 concrete
+#material: 1 0 1 0 air
+
+
+#waveform: ricker 1 600e6 my_ricker
+#hertzian_dipole: z 0.1 0.7 0 my_ricker
+#rx: 0.15 0.15 0.005
+#src_steps: 0.2 0 0
+#rx_steps: 0.2 0 0
+
+#box: 0.0 2.25 0 3.0 3.75 0.01 concrete
+#box: 0.0 0.0 0 3.0 2.25 0.01 air
+
+#cylinder: 0.5 1.25 0.005 0.5 1.25 0.095 0.1 pec
+#cylinder: 1.2 0.7 0.005 1.2 0.7 0.145 0.2 pec
+#cylinder: 2.6 1.8 0.005 2.6 1.8 0.195 0.25 pec
+#cylinder: 1.8 0.5 0.005 1.8 0.5 0.245 0.15 pec
+#cylinder: 0.8 1.85 0.005 0.8 1.85 0.295 0.3 pec
+#cylinder: 1.4 1.5 0.005 1.4 1.5 0.295 0.2 pec
+#cylinder: 2.3 0.3 0.005 2.3 0.3 0.345 0.1 pec
+#cylinder: 1.9 2.0 0.005 1.9 2.0 0.445 0.25 pec
+
+
+
+#geometry_view: 0 0 0 3.0 6.0 0.01 0.01 0.01 0.01 parete n
+
